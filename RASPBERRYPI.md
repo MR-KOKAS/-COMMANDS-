@@ -1,4 +1,4 @@
-RASPBERRYPI - INICIALIZARLA
+RASPBERRYPI - INICIALIZAR
 
 
 | Comando         | Descripción     | 
