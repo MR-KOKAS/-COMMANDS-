@@ -31,10 +31,10 @@ RASPBERRYPI - INICIALIZAR
      * -ssid = name network
 
 6. Network
-     ```pythonpython
+     ```python
     network={
-            ssid="kokas"
-            #psk="kokaslocas"
+            ssid="name_network"
+            #psk="password"
             psk=10145daf900bc96424410826a95b4cb6f6b5147389df23193e8887a6ab294509
     }
     ´´´
