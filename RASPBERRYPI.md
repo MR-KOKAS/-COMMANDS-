@@ -27,7 +27,7 @@ RASPBERRYPI - INICIALIZAR
 4. sudo raspi-config nonint do_wifi_country MX
      * -configurate internet<ssid>
 
-5. wpa_passphrase "<ssid>"
+5. wpa_passphrase " ssid "
      * -ssid = name network
 
 6. Network
