@@ -21,7 +21,7 @@ RASPBERRYPI - INICIALIZAR
 
 3. ssh pi@raspberrypi
     * -ssh <username>@<host>
-    * -ssh pi@169.254.669.216
+    * -ssh pi@122.254.669.216
     * -ssh pi@raspberrypi.local
 
 4. sudo raspi-config nonint do_wifi_country MX
