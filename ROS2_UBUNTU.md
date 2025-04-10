@@ -35,3 +35,13 @@ ROS2 - RUN PACKAGE AND NODE
 |-----------------|-----------------|
 | ```ros2 run my_package my_node --ros-args -p use_sim_time:=True```    | Command line directly to make your node use the simulated time instead of the real time  | 
 
+ROS2 - RUN LAUNCH
+| Comando         | Descripción     | 
+|-----------------|-----------------|
+| ```ros2 launch mobile_robotics move.launch.py```    | Execute the node  | 
+
+ROS2 - PUBLIC DATA  
+| Comando         | Descripción     | 
+|-----------------|-----------------|
+| ```ros2 topic pub --once /topic_name std_msgs/msg/Float32 "data: 1.0"```    | Send data by topic | 
+
