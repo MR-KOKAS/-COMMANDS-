@@ -45,3 +45,43 @@ ROS2 - PUBLIC DATA
 |-----------------|-----------------|
 | ```ros2 topic pub --once /topic_name std_msgs/msg/Float32 "data: 1.0"```    | Send data by topic | 
 
+ROS2 - RVIZ2
+| Comando         | Descripción     | 
+|-----------------|-----------------|
+| ```ros2 run rviz2 rviz2```    | Run the simulation | 
+
+ROS2 - TF2 - Static
+| Comando         | Descripción     | 
+|-----------------|-----------------|
+| ```ros2 run tf2_ros static_transform_publisher X Y Z roll pitch yaw name_referent_mark label```    | Publish static mark | 
+
+ROS2 - TF2 - Dynamic
+| Comando         | Descripción     | 
+|-----------------|-----------------|
+| ``` ```    | Publish static mark | 
+
+ROS2 - TF2 - install rqt-tf-tree
+| Comando         | Descripción     | 
+|-----------------|-----------------|
+| ```sudo apt install ros-humble-rqt-tf-tree```    | Download | 
+| ```ros2 run rqt_tf_tree rqt_tf_tree```    | Running | 
+| ```ros2 run tf2_ros tf2_echo robot1 world```    | Information | 
+
+ROS2 - build packeges 
+| Comando         | Descripción     | 
+|-----------------|-----------------|
+| ```ros2 pkg create --build-type ament_python tf_examples --node-name static_tf --dependencies geometry_msgs python3-numpy rclpy tf2_ros_py ros2launch std_msgs```    | Build packeges | 
+
+ROS2 - TF2 - install rqt-tf-tree
+| Comando         | Descripción     | 
+|-----------------|-----------------|
+| ```sudo apt install ros-humble-rqt-tf-tree```    | Download | 
+| ```ros2 run rqt_tf_tree rqt_tf_tree```    | Running | 
+| ```ros2 run tf2_ros tf2_echo robot1 world```    | Information | 
+
+
+ROS2 - build packeges 
+| Comando         | Descripción     | 
+|-----------------|-----------------|
+| ```ros2 pkg create --build-type ament_python tf_examples --node-name static_tf --dependencies geometry_msgs python3-numpy rclpy tf2_ros_py ros2launch std_msgs```    | Build packeges | 
+
